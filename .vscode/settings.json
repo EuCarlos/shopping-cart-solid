@@ -2,6 +2,11 @@
     "code-runner.executorMap": {
       "typescript": "clear && npx ts-node --files --transpile-only",
     },
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+
   }
   
