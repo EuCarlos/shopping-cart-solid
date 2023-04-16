@@ -10,6 +10,7 @@
     "dev:lsp": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/lsp/main.ts",
     "dev:isp": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/isp/main.ts",
     "dev:dip": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/dip/main.ts",
+    "dev:legacy": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/legacy/index-legacy.ts",
     "test": "jest"
   },
   "keywords": [],
